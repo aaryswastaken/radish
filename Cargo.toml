@@ -1,0 +1,12 @@
+[package]
+name = "radish"
+version = "0.1.0"
+authors = ["Aarys SAHLER"]
+edition = "2021"
+description = "OAuth2 redis-centered token renewal daemon"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+redis = "0.23.0"
+reqwest = "0.11.18"
